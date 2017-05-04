@@ -11,9 +11,9 @@ $.ajax({
 	 var col="<div class='col'></div>"
  		for(var i=0;i<20;i++){
  		var now_template=template.replace("{channel}",res.streams[i].channel.status)
-														 .replace("{name}",res.streams[i].channel.name)
-															.replace("{image1}",res.streams[i].channel.video_banner)
-															.replace("{image2}",res.streams[i].channel.logo);
+					 .replace("{name}",res.streams[i].channel.name)
+					 .replace("{image1}",res.streams[i].channel.video_banner)
+					 .replace("{image2}",res.streams[i].channel.logo);
 	 $(".container").append(now_template);
  }
  }
