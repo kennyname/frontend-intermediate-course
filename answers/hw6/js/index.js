@@ -25,16 +25,7 @@ function getData(cb){
 	}
 	}
 	request.send();
-// 	const clientID='3nic4qrhou17yeyhgg0zh54tsa9sdv';
-// 	const limit=20;
-// 	isLoading=true;
-// 	$.ajax({
-// 		url: 'https://api.twitch.tv/kraken/streams/?client_id=' + clientID + '&game=League%20of%20Legends&limit='+limit+'&offset='+nowIndex+'',
-// 		success: function(response){
 
-// 			cb(null,response);
-// 	}
-// 	});
 }
 //以上是第一步，拿資料
 
