@@ -51,20 +51,20 @@ function appendData(){
 function getColumn(data){
 	return `
 	<div class="box">
-          <div class="top">
+       	    <div class="top">
 		<img src="${data.preview.medium}"onload="this.style.opacity=1"/>
-	</div>
-       <div class="bottom">
-          <div class="photo">
-		<img src="${data.channel.logo}"onload="this.style.opacity=1"/>
-	</div>
-      <div class="intro">
-	<div class="textbox">
-        <div class="channel">${data.channel.status}</div>
-        <div class="name">${data.channel.display_name}</div>
-	</div>
-      </div>
-    </div>
-  </div>
+	    </div>
+       	    <div class="bottom">
+          	<div class="photo">
+		   <img src="${data.channel.logo}"onload="this.style.opacity=1"/>
+		</div>
+      		<div class="intro">
+		   <div class="textbox">
+        		<div class="channel">${data.channel.status}</div>
+        		<div class="name">${data.channel.display_name}</div>
+		   </div>
+     	        </div>
+            </div>
+  	</div>
 				`;
 }
