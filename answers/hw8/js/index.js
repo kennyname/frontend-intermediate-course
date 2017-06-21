@@ -67,7 +67,7 @@ function appendData(lang){
 				// container.appendChild(div);
 				// div.outerHTML=getColumn(streams[i]);
 		}
-			nowIndex+=20;
+			nowIndex=0;
 			isLoading=false;
 	}
 	});
